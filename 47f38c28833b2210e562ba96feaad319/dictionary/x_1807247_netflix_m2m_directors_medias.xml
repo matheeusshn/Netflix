@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="2b9d45f08333a210e562ba96feaad310" label="x_1807247_netflix_m2m_Directors_Medias" max_length="40" name="x_1807247_netflix_m2m_directors_medias" type="collection">
+        <element attributes="encode_utf8=false" label="Directors" max_length="32" name="x_1807247_netflix_director" reference="x_1807247_netflix_director" type="reference"/>
+        <element attributes="encode_utf8=false" label="Medias" max_length="32" name="x_1807247_netflix_media" reference="x_1807247_netflix_media" type="reference"/>
+        <index name="index">
+            <element name="x_1807247_netflix_director"/>
+        </index>
+        <index name="index2">
+            <element name="x_1807247_netflix_media"/>
+        </index>
+    </element>
+</database>
