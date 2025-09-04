@@ -83,14 +83,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-03 17:31:01</sys_created_on>
         <sys_id>b860354d8377e210e562ba96feaad3aa</sys_id>
-        <sys_mod_count>40</sys_mod_count>
+        <sys_mod_count>48</sys_mod_count>
         <sys_name>Write a Review</sys_name>
         <sys_package display_value="Netflix" source="x_1807247_netflix">47f38c28833b2210e562ba96feaad319</sys_package>
         <sys_policy/>
         <sys_scope display_value="Netflix">47f38c28833b2210e562ba96feaad319</sys_scope>
         <sys_update_name>sc_cat_item_producer_b860354d8377e210e562ba96feaad3aa</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2025-09-04 13:00:30</sys_updated_on>
+        <sys_updated_on>2025-09-04 14:12:34</sys_updated_on>
         <table_name>x_1807247_netflix_review</table_name>
         <taxonomy_topic display_value="Software">d22413a7c3053010069aec4b7d40ddf8</taxonomy_topic>
         <template/>
@@ -98,7 +98,7 @@
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
-        <version>40</version>
+        <version>48</version>
         <view/>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
