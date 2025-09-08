@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_process_flow">
+    <sys_process_flow action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_1807247_netflix_review">state=3^EQ<item display_value="Approved" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="3"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description><![CDATA[<p> </p>
+<style id="app_ajhbdcgfhlhhmocddefknjjkejcfpbnj_style">html,
+body,
+body *,
+html body *,
+html body.ds *,
+html body div *,
+html body span *,
+html body p *,
+html body h1 *,
+html body h2 *,
+html body h3 *,
+html body h4 *,
+html body h5 *,
+html body h5 *,
+html body h5 *,
+html body *:not(input):not(textarea):not([contenteditable=""]):not([contenteditable="true"]) {
+  user-select:text !important;
+  pointer-events:initial !important;
+}
+
+html body *:not(input):not(textarea)::selection,
+body *:not(input):not(textarea)::selection,
+html body div *:not(input):not(textarea)::selection,
+html body span *:not(input):not(textarea)::selection,
+html body p *:not(input):not(textarea)::selection,
+html body h1 *:not(input):not(textarea)::selection,
+html body h2 *:not(input):not(textarea)::selection,
+html body h3 *:not(input):not(textarea)::selection,
+html body h4 *:not(input):not(textarea)::selection,
+html body h5 *:not(input):not(textarea)::selection {
+  background-color:#3297fd !important;
+  color:#ffffff !important;
+}
+
+.www_linkedin_com .sa-assessment-flow__card.sa-assessment-quiz .sa-assessment-quiz__scroll-content .sa-assessment-quiz__response .sa-question-multichoice__item.sa-question-basic-multichoice__item .sa-question-multichoice__input.sa-question-basic-multichoice__input.ember-checkbox.ember-view { width:40px; }
+
+.www_instagram_com ._aagw { display:none; }
+
+.bp-doc .pdfViewer .page:not(.bp-is-invisible):before { display:none; }
+
+.web_telegram_org .emoji-animation-container { display:none; }
+
+.ladno_ru [style*="position: absolute; left: 0; right: 0; top: 0; bottom: 0;"] { display:none !important; }
+
+.mycomfyshoes_fr #fader.fade-out { display:none !important; }
+
+.www_mindmeister_com .kr-view { z-index:-1 !important; }
+
+.www_newvision_co_ug .v-snack:not(.v-snack--absolute) { z-index:-1 !important; }
+
+.derstarih_com .bs-sks { z-index:-1; }
+</style>]]></description>
+        <label>Approved</label>
+        <name>Approved</name>
+        <order>400</order>
+        <sys_class_name>sys_process_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-08 17:21:23</sys_created_on>
+        <sys_id>e14e972e83772210e562ba96feaad30d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Approved</sys_name>
+        <sys_package display_value="Netflix" source="x_1807247_netflix">47f38c28833b2210e562ba96feaad319</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Netflix">47f38c28833b2210e562ba96feaad319</sys_scope>
+        <sys_update_name>sys_process_flow_e14e972e83772210e562ba96feaad30d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-08 17:21:23</sys_updated_on>
+        <table>x_1807247_netflix_review</table>
+    </sys_process_flow>
+</record_update>
