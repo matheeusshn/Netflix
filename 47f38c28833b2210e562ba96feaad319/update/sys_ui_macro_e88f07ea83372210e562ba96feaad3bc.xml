@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_macro">
+    <sys_ui_macro action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>general</category>
+        <description/>
+        <media_type/>
+        <name>poster</name>
+        <scoped_name>x_1807247_netflix_poster</scoped_name>
+        <sys_class_name>sys_ui_macro</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-08 16:22:54</sys_created_on>
+        <sys_id>e88f07ea83372210e562ba96feaad3bc</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>poster</sys_name>
+        <sys_package display_value="Netflix" source="x_1807247_netflix">47f38c28833b2210e562ba96feaad319</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Netflix">47f38c28833b2210e562ba96feaad319</sys_scope>
+        <sys_update_name>sys_ui_macro_e88f07ea83372210e562ba96feaad3bc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-08 16:55:00</sys_updated_on>
+        <xml><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+<div style="width: 100%; display: flex; justify-content: center;">
+<img src="" id="poster_img" style="width: 300px;border-radius:16px; background: #e0e0e0; box-shadow:  9px 9px 12px #cccccc, -9px -9px 12px #f4f4f4;"/>
+</div>
+</j:jelly>]]></xml>
+    </sys_ui_macro>
+</record_update>

@@ -37,15 +37,13 @@
         <mandatory>false</mandatory>
         <message/>
         <message_html><![CDATA[<p>Hello, ${opened_by.first_name}</p>
-<p>Your review for the ${media.type}: ${media.title} is <strong>Approved</strong>!</p>
-<p>Thanks for review this media.</p>
-<p>&nbsp;</p>
+<p>Your review for the ${media.type}: ${media.title} is <strong>Reproved</strong>!</p>
+<p>The reproval reason is: ${reproval_reason}</p>
 <p><img style="border-radius: 10px; background: #e0e0e0; box-shadow: 6px 6px 12px #9f9f9f, -6px -6px 12px #ffffff; width: 200px;" src="${current.media.poster}"></p>
-<p>&nbsp;</p>
-<p>If you want to review more medias, click <a href="https://dev285850.service-now.com/sp?id=sc_cat_item&amp;sys_id=b860354d8377e210e562ba96feaad3aa" target="_top">here</a>!</p>]]></message_html>
+<p>If you want to submit another review, click <a href="https://dev285850.service-now.com/sp?id=sc_cat_item&amp;sys_id=b860354d8377e210e562ba96feaad3aa" target="_top">here</a>!</p>]]></message_html>
         <message_list/>
         <message_text/>
-        <name>Review Approved</name>
+        <name>Review Reproved</name>
         <omit_watermark>false</omit_watermark>
         <order>100</order>
         <push_message_only>false</push_message_only>
@@ -60,19 +58,19 @@
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-05 20:20:19</sys_created_on>
+        <sys_created_on>2025-09-08 13:26:58</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>8f0a6839833b2210e562ba96feaad36c</sys_id>
-        <sys_mod_count>16</sys_mod_count>
-        <sys_name>Review Approved</sys_name>
+        <sys_id>a128e2ea83732210e562ba96feaad382</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Review Reproved</sys_name>
         <sys_overrides/>
         <sys_package display_value="Netflix" source="x_1807247_netflix">47f38c28833b2210e562ba96feaad319</sys_package>
         <sys_policy/>
         <sys_scope display_value="Netflix">47f38c28833b2210e562ba96feaad319</sys_scope>
-        <sys_update_name>sysevent_email_action_8f0a6839833b2210e562ba96feaad36c</sys_update_name>
+        <sys_update_name>sysevent_email_action_a128e2ea83732210e562ba96feaad382</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-08 13:59:50</sys_updated_on>
+        <sys_updated_on>2025-09-08 13:58:20</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>
