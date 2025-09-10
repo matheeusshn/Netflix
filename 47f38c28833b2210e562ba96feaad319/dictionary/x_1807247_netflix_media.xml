@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="8dbaffa483bb6210e562ba96feaad34a" label="Media" max_length="40" name="x_1807247_netflix_media" type="collection">
+        <element choice="1" default="1" label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Completed" sequence="1" value="3"/>
+                <element inactive_on_update="false" label="Draft" sequence="0" value="1"/>
+            </choice>
+        </element>
         <element label="Language" max_length="250" name="language" type="string"/>
+        <element label="Integration Error Message" max_length="1000" name="integration_error_message" type="string"/>
         <element label="Category" max_length="40" name="category" type="string"/>
         <element label="Release Date" max_length="255" name="release_date" type="glide_date"/>
         <element label="Release Year" max_length="4" name="release_year" type="string"/>
@@ -11,6 +18,15 @@
         <element label="Poster" max_length="1000" name="poster" type="url"/>
         <element default="0" label="IMDB Rating" max_length="40" name="imdb_rating" type="float"/>
         <element label="Website" max_length="1000" name="website" type="url"/>
+        <element choice="1" default="1" label="Integration State" max_length="40" name="integration_state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Integrating Failure" sequence="2" value="4"/>
+                <element inactive_on_update="false" label="Integrating Sucess" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="Integrating" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Starting" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Media not found" sequence="4" value="7"/>
+            </choice>
+        </element>
         <element default="0" label="Average Rating" max_length="255" name="average_rating" type="float"/>
         <element label="Genre" max_length="1024" name="genre" reference="x_1807247_netflix_genre" type="glide_list"/>
         <element label="Country" max_length="250" name="country" type="string"/>
