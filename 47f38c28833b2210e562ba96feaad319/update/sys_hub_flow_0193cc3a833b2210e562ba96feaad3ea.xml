@@ -4,7 +4,7 @@
         <acls/>
         <active>false</active>
         <annotation/>
-        <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,viewActivatedIn=naturalLanguage</attributes>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,viewActivatedIn=naturalLanguage</attributes>
         <authored_on_release_version>26000</authored_on_release_version>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
@@ -38,15 +38,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0193cc3a833b2210e562ba96feaad3ea</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Media Integration</sys_name>
         <sys_overrides/>
         <sys_package display_value="Netflix" source="x_1807247_netflix">47f38c28833b2210e562ba96feaad319</sys_package>
         <sys_policy/>
         <sys_scope display_value="Netflix">47f38c28833b2210e562ba96feaad319</sys_scope>
         <sys_update_name>sys_hub_flow_0193cc3a833b2210e562ba96feaad3ea</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-08 20:38:15</sys_updated_on>
+        <sys_updated_by>netflix.tester</sys_updated_by>
+        <sys_updated_on>2025-09-08 20:55:43</sys_updated_on>
         <type>flow</type>
         <version>2</version>
     </sys_hub_flow>
@@ -331,12 +331,12 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-08 20:07:20</sys_created_on>
         <sys_id>18448c7a833b2210e562ba96feaad37b</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-08 20:38:15</sys_updated_on>
+        <sys_updated_by>netflix.tester</sys_updated_by>
+        <sys_updated_on>2025-09-08 20:55:43</sys_updated_on>
         <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
-        <trigger_inputs>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</trigger_inputs>
+        <trigger_inputs>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</trigger_inputs>
         <trigger_outputs/>
         <trigger_type>record_create_or_update</trigger_type>
     </sys_hub_trigger_instance_v2>
