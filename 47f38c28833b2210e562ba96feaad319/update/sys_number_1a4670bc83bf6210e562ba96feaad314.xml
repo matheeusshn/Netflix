@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_1807247_netflix_suggestion">x_1807247_netflix_suggestion</category>
+        <maximum_digits>7</maximum_digits>
+        <number>0</number>
+        <prefix>SUG</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-02 18:38:04</sys_created_on>
+        <sys_id>1a4670bc83bf6210e562ba96feaad314</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SUG</sys_name>
+        <sys_package display_value="Netflix" source="x_1807247_netflix">47f38c28833b2210e562ba96feaad319</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Netflix">47f38c28833b2210e562ba96feaad319</sys_scope>
+        <sys_update_name>sys_number_1a4670bc83bf6210e562ba96feaad314</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-02 18:38:04</sys_updated_on>
+    </sys_number>
+</record_update>
