@@ -3,16 +3,16 @@
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-09-02 15:02:52</sys_created_on>
+            <sys_created_on>2025-09-15 19:52:21</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>5e054cf083fb6210e562ba96feaad3c2</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_id>99f3cc8d83c43210e562ba96feaad3fd</sys_id>
+            <sys_mod_count>1</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1807247_netflix_media" name="x_1807247_netflix_media" sys_domain="global" view="Default view">42050cf083fb6210e562ba96feaad3eb</sys_ui_form>
-            <sys_ui_section caption="NULL" display_value="" name="x_1807247_netflix_media" sys_domain="global" view="Default view">1dbaf36483bb6210e562ba96feaad3ff</sys_ui_section>
+            <sys_ui_section caption="Media" display_value="Media" name="x_1807247_netflix_media" sys_domain="global" view="Default view">95f3cc8d83c43210e562ba96feaad3a9</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-02 15:02:52</sys_updated_on>
+            <sys_updated_on>2025-09-15 19:52:22</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>1</position>
@@ -21,12 +21,12 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>da054cf083fb6210e562ba96feaad3c3</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1807247_netflix_media" name="x_1807247_netflix_media" sys_domain="global" view="Default view">42050cf083fb6210e562ba96feaad3eb</sys_ui_form>
             <sys_ui_section caption="Language" display_value="Language" name="x_1807247_netflix_media" sys_domain="global" view="Default view">ca050cf083fb6210e562ba96feaad3e8</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-02 15:02:52</sys_updated_on>
+            <sys_updated_on>2025-09-15 19:52:45</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>2</position>
@@ -35,12 +35,12 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>56054cf083fb6210e562ba96feaad3c7</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1807247_netflix_media" name="x_1807247_netflix_media" sys_domain="global" view="Default view">42050cf083fb6210e562ba96feaad3eb</sys_ui_form>
             <sys_ui_section caption="Ratings" display_value="Ratings" name="x_1807247_netflix_media" sys_domain="global" view="Default view">82050cf083fb6210e562ba96feaad3ea</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-02 15:02:53</sys_updated_on>
+            <sys_updated_on>2025-09-15 19:52:45</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>3</position>
@@ -49,12 +49,12 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>2c7a23b683332210e562ba96feaad377</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1807247_netflix_media" name="x_1807247_netflix_media" sys_domain="global" view="Default view">42050cf083fb6210e562ba96feaad3eb</sys_ui_form>
             <sys_ui_section caption="Integration" display_value="Integration" name="x_1807247_netflix_media" sys_domain="global" view="Default view">2c7a23b683332210e562ba96feaad373</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-09 12:53:02</sys_updated_on>
+            <sys_updated_on>2025-09-15 19:52:45</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_1807247_netflix_media</name>
