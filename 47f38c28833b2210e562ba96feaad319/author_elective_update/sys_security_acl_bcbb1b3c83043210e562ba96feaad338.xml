@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>true</advanced>
+        <applies_to/>
+        <condition/>
+        <decision_type>allow</decision_type>
+        <description>Allow create for records in x_1807247_netflix_actor, if the ACL script returns true.</description>
+        <local_or_existing>Local</local_or_existing>
+        <name>x_1807247_netflix_actor</name>
+        <operation display_value="create">create</operation>
+        <script><![CDATA[(function() {
+    if (!current.media)
+        return true;
+
+    var grMedia = new GlideRecord('x_1807247_netflix_media');
+    if (grMedia.get(current.media)) {
+
+        return grMedia.state != 3;
+    }
+
+    return true;
+})();]]></script>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-15 16:57:08</sys_created_on>
+        <sys_id>bcbb1b3c83043210e562ba96feaad338</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>x_1807247_netflix_actor</sys_name>
+        <sys_package display_value="Netflix" source="x_1807247_netflix">47f38c28833b2210e562ba96feaad319</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Netflix">47f38c28833b2210e562ba96feaad319</sys_scope>
+        <sys_update_name>sys_security_acl_bcbb1b3c83043210e562ba96feaad338</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-15 17:06:13</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_es_latest_script action="DELETE">
+        <id>bcbb1b3c83043210e562ba96feaad338</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-15 16:57:01</sys_created_on>
+        <sys_id>cddb173c83043210e562ba96feaad3eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-15 16:57:01</sys_updated_on>
+        <table>sys_security_acl</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Netflix">47f38c28833b2210e562ba96feaad319</application>
+        <file_path/>
+        <instance_id>61fbd9163b7f82d4986d048aa4e45ad8</instance_id>
+        <instance_name>dev285850</instance_name>
+        <name>sys_security_acl_bcbb1b3c83043210e562ba96feaad338</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_security_acl"&gt;&lt;sys_security_acl action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;admin_overrides&gt;true&lt;/admin_overrides&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;applies_to/&gt;&lt;condition/&gt;&lt;decision_type&gt;allow&lt;/decision_type&gt;&lt;description&gt;Allow create for records in x_1807247_netflix_actor, if the ACL script returns true.&lt;/description&gt;&lt;local_or_existing&gt;Local&lt;/local_or_existing&gt;&lt;name&gt;x_1807247_netflix_actor&lt;/name&gt;&lt;operation display_value="create"&gt;create&lt;/operation&gt;&lt;script&gt;&lt;![CDATA[(function() {
+    if (!current.media)
+        return true;
+
+    var grMedia = new GlideRecord('x_1807247_netflix_media');
+    if (grMedia.get(current.media)) {
+
+        return grMedia.state != 3;
+    }
+
+    return true;
+})();]]&gt;&lt;/script&gt;&lt;security_attribute/&gt;&lt;sys_class_name&gt;sys_security_acl&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-15 16:57:08&lt;/sys_created_on&gt;&lt;sys_id&gt;bcbb1b3c83043210e562ba96feaad338&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name&gt;x_1807247_netflix_actor&lt;/sys_name&gt;&lt;sys_package display_value="Netflix" source="x_1807247_netflix"&gt;47f38c28833b2210e562ba96feaad319&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Netflix"&gt;47f38c28833b2210e562ba96feaad319&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_security_acl_bcbb1b3c83043210e562ba96feaad338&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-15 17:06:13&lt;/sys_updated_on&gt;&lt;type display_value="record"&gt;record&lt;/type&gt;&lt;/sys_security_acl&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;bcbb1b3c83043210e562ba96feaad338&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-15 16:57:01&lt;/sys_created_on&gt;&lt;sys_id&gt;cddb173c83043210e562ba96feaad3eb&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-15 16:57:01&lt;/sys_updated_on&gt;&lt;table&gt;sys_security_acl&lt;/table&gt;&lt;use_es_latest&gt;true&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1098566311</payload_hash>
+        <record_name>x_1807247_netflix_actor</record_name>
+        <reverted_from/>
+        <source>55af8e2883b36210e562ba96feaad366</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-15 17:06:14</sys_created_on>
+        <sys_id>f7ed9fbc83043210e562ba96feaad367</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1994e57651d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-15 17:06:14</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>7fed9fbc20043210dade54f820713a66</update_guid>
+        <update_guid_history>7fed9fbc20043210dade54f820713a66:1098566311,bbbdd3fcbd0432103cc849136118bb76:-1936304151,bb8d1fbcdb0432108b8a95413e98ef57:-1431526662,acecdf3c1f043210dd9ee092018615c8:1086348689,a2db973cbf043210f7eb7786c63aee08:-1891205904</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-15 17:17:12</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>191ff428068f471e9a985eb8f40e1f84</sys_id>
+        <sys_metadata>bcbb1b3c83043210e562ba96feaad338</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1807247_netflix_actor</sys_name>
+        <sys_package display_value="Netflix" source="x_1807247_netflix">47f38c28833b2210e562ba96feaad319</sys_package>
+        <sys_parent display_value="x_1807247_netflix_actor">1367bba083bb6210e562ba96feaad350</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Netflix">47f38c28833b2210e562ba96feaad319</sys_scope>
+        <sys_scope_delete display_value="">72142f9fdd8e4ee4b4b99011bbf7da39</sys_scope_delete>
+        <sys_update_name>sys_security_acl_bcbb1b3c83043210e562ba96feaad338</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_bcbb1b3c83043210e562ba96feaad338">f7ed9fbc83043210e562ba96feaad367</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-15 17:17:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
