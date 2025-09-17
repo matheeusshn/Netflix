@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_producer">
     <sc_cat_item_producer action="INSERT_OR_UPDATE">
         <access_type>restricted</access_type>
-        <active>false</active>
+        <active>true</active>
         <allow_edit>false</allow_edit>
         <availability>on_desktop</availability>
         <billable>false</billable>
@@ -13,7 +13,59 @@
         <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
         <delivery_plan_script/>
         <delivery_time>1970-01-03 00:00:00</delivery_time>
-        <description><![CDATA[<p>Create a media review: choose the media, rate the media and write a comment about.</p>]]></description>
+        <description><![CDATA[<p>Create a media review: choose the media, rate the media and write a comment about.</p>
+<style id="app_ajhbdcgfhlhhmocddefknjjkejcfpbnj_style">html,
+body,
+body *,
+html body *,
+html body.ds *,
+html body div *,
+html body span *,
+html body p *,
+html body h1 *,
+html body h2 *,
+html body h3 *,
+html body h4 *,
+html body h5 *,
+html body h5 *,
+html body h5 *,
+html body *:not(input):not(textarea):not([contenteditable=""]):not([contenteditable="true"]) {
+  user-select:text !important;
+  pointer-events:initial !important;
+}
+
+html body *:not(input):not(textarea)::selection,
+body *:not(input):not(textarea)::selection,
+html body div *:not(input):not(textarea)::selection,
+html body span *:not(input):not(textarea)::selection,
+html body p *:not(input):not(textarea)::selection,
+html body h1 *:not(input):not(textarea)::selection,
+html body h2 *:not(input):not(textarea)::selection,
+html body h3 *:not(input):not(textarea)::selection,
+html body h4 *:not(input):not(textarea)::selection,
+html body h5 *:not(input):not(textarea)::selection {
+  background-color:#3297fd !important;
+  color:#ffffff !important;
+}
+
+.www_linkedin_com .sa-assessment-flow__card.sa-assessment-quiz .sa-assessment-quiz__scroll-content .sa-assessment-quiz__response .sa-question-multichoice__item.sa-question-basic-multichoice__item .sa-question-multichoice__input.sa-question-basic-multichoice__input.ember-checkbox.ember-view { width:40px; }
+
+.www_instagram_com ._aagw { display:none; }
+
+.bp-doc .pdfViewer .page:not(.bp-is-invisible):before { display:none; }
+
+.web_telegram_org .emoji-animation-container { display:none; }
+
+.ladno_ru [style*="position: absolute; left: 0; right: 0; top: 0; bottom: 0;"] { display:none !important; }
+
+.mycomfyshoes_fr #fader.fade-out { display:none !important; }
+
+.www_mindmeister_com .kr-view { z-index:-1 !important; }
+
+.www_newvision_co_ug .v-snack:not(.v-snack--absolute) { z-index:-1 !important; }
+
+.derstarih_com .bs-sks { z-index:-1; }
+</style>]]></description>
         <display_price_property>non_zero</display_price_property>
         <entitlement_script/>
         <flow_designer_flow/>
@@ -31,7 +83,7 @@
         <mobile_picture/>
         <mobile_picture_type>use_desktop_picture</mobile_picture_type>
         <model/>
-        <name>Copy of Write a Review</name>
+        <name>Copy Write a Review</name>
         <no_attachment_v2>false</no_attachment_v2>
         <no_cart>false</no_cart>
         <no_cart_v2>false</no_cart_v2>
@@ -89,14 +141,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-04 14:48:33</sys_created_on>
         <sys_id>abe4125983b32210e562ba96feaad3b0</sys_id>
-        <sys_mod_count>21</sys_mod_count>
-        <sys_name>Copy of Write a Review</sys_name>
+        <sys_mod_count>25</sys_mod_count>
+        <sys_name>Copy Write a Review</sys_name>
         <sys_package display_value="Netflix" source="x_1807247_netflix">47f38c28833b2210e562ba96feaad319</sys_package>
         <sys_policy/>
         <sys_scope display_value="Netflix">47f38c28833b2210e562ba96feaad319</sys_scope>
         <sys_update_name>sc_cat_item_producer_abe4125983b32210e562ba96feaad3b0</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2025-09-10 13:07:34</sys_updated_on>
+        <sys_updated_on>2025-09-17 12:58:27</sys_updated_on>
         <table_name>x_1807247_netflix_review</table_name>
         <taxonomy_topic display_value="Software">d22413a7c3053010069aec4b7d40ddf8</taxonomy_topic>
         <template/>
@@ -104,7 +156,7 @@
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
-        <version>69</version>
+        <version>73</version>
         <view/>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
