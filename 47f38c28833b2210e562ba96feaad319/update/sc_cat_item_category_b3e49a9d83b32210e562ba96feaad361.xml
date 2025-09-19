@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
     <sc_cat_item_category action="INSERT_OR_UPDATE">
-        <sc_cat_item display_value="Copy of Write a Review">abe4125983b32210e562ba96feaad3b0</sc_cat_item>
+        <sc_cat_item display_value="Copy Write a Review">abe4125983b32210e562ba96feaad3b0</sc_cat_item>
         <sc_category display_value="Netflix">c43e51098337e210e562ba96feaad32e</sc_category>
         <sys_class_name>sc_cat_item_category</sys_class_name>
         <sys_created_by>admin</sys_created_by>

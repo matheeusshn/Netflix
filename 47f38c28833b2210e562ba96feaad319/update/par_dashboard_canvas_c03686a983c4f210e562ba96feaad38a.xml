@@ -2,14 +2,14 @@
     <par_dashboard_canvas action="INSERT_OR_UPDATE">
         <dashboard display_value="Review">403682a983c4f210e562ba96feaad399</dashboard>
         <dashboard_tab/>
-        <layout>[{"sys_id":"ae4d8ee18308f210e562ba96feaad39f","x":25,"y":0,"w":9,"h":7,"component_id":"15fe506403f8a98575b6df59008ea8f1","component_props":"{\"src\":\"upload_Netflix-Symbol.png\",\"sources\":\"[]\",\"fit\":\"fill\",\"position\":\"center center\",\"width\":150,\"height\":125,\"alt\":\"\",\"href\":\"https://www.servicenow.com/\",\"configAria\":\"{\\\"link\\\":{}}\",\"id\":\"height\",\"value\":125,\"propLabel\":\"Height\"}","can_edit":true},{"sys_id":"ea4d8ee18308f210e562ba96feaad39d","x":16,"y":0,"w":9,"h":3,"component_id":"1f6e0643eca7a637e36bd7833549ec9e","component_props":"{\"variant\":\"header-primary\",\"label\":\"Netflix\",\"wontWrap\":false,\"hasNoMargin\":false,\"level\":\"1\",\"id\":\"level\",\"value\":\"1\",\"noDebounce\":true,\"propLabel\":\"Level\"}","can_edit":true}]</layout>
+        <layout>[{"sys_id":"ae4d8ee18308f210e562ba96feaad39f","x":0,"y":3,"w":9,"h":7,"component_id":"15fe506403f8a98575b6df59008ea8f1","component_props":"{\"src\":\"upload_Netflix-Symbol.png\",\"sources\":\"[]\",\"fit\":\"fill\",\"position\":\"center center\",\"width\":150,\"height\":125,\"alt\":\"\",\"href\":\"https://www.servicenow.com/\",\"configAria\":\"{\\\"link\\\":{}}\",\"id\":\"height\",\"value\":125,\"propLabel\":\"Height\"}","can_edit":true},{"sys_id":"ea4d8ee18308f210e562ba96feaad39d","x":0,"y":0,"w":9,"h":3,"component_id":"1f6e0643eca7a637e36bd7833549ec9e","component_props":"{\"variant\":\"header-primary\",\"label\":\"Netflix\",\"wontWrap\":false,\"hasNoMargin\":false,\"level\":\"1\",\"id\":\"level\",\"value\":\"1\",\"noDebounce\":true,\"propLabel\":\"Level\"}","can_edit":true}]</layout>
         <sys_class_name>par_dashboard_canvas</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-17 18:38:18</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c03686a983c4f210e562ba96feaad38a</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package display_value="Netflix" source="x_1807247_netflix">47f38c28833b2210e562ba96feaad319</sys_package>
@@ -17,6 +17,6 @@
         <sys_scope display_value="Netflix">47f38c28833b2210e562ba96feaad319</sys_scope>
         <sys_update_name>par_dashboard_canvas_c03686a983c4f210e562ba96feaad38a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-17 20:12:07</sys_updated_on>
+        <sys_updated_on>2025-09-17 20:26:49</sys_updated_on>
     </par_dashboard_canvas>
 </record_update>

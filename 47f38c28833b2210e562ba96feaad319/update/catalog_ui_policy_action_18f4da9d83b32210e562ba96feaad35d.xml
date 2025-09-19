@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
     <catalog_ui_policy_action action="INSERT_OR_UPDATE">
-        <catalog_item display_value="Copy of Write a Review">abe4125983b32210e562ba96feaad3b0</catalog_item>
+        <catalog_item display_value="Copy Write a Review">abe4125983b32210e562ba96feaad3b0</catalog_item>
         <catalog_variable>IO:bfe49a9d83b32210e562ba96feaad38f</catalog_variable>
         <cleared>false</cleared>
         <disabled>ignore</disabled>
